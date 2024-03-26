@@ -16,6 +16,18 @@ export default function SignUpUserSteps() {
           page and sign up to start using DailyU.
         </p>
       </Step>
+      <Step title="Start tracking">
+        <p>
+          Once authenticated, start tracking your daily tasks and keep yourself{" "}
+          <Link
+            href="/tasks"
+            className="font-bold hover:underline text-foreground/80"
+          >
+            organized
+          </Link>{" "}
+          every single day.
+        </p>
+      </Step>
     </ol>
   );
 }
